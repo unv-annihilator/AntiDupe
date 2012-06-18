@@ -1,0 +1,5 @@
+name: AntiDupe
+author: unv_annihilator
+website: http://www.justicecraft.net
+main: net.justicecraft.AntiDupe.Core
+version: 1.2.5.3

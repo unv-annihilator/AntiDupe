@@ -9,10 +9,12 @@ public class Core extends JavaPlugin{
 	public final Logger log = Logger.getLogger("Minecraft");
 	public static String logPrefix = "[AntiDupe] ";
 	
+	// On Disable
 	public void onDisable(){
 		log.info(logPrefix+" has been disabled.");
 	}
 	
+	// On Enable
 	public void onEnable(){
 		PluginDescriptionFile pdfFile = this.getDescription();
 		this.log.info(pdfFile.getName()+ " version " + pdfFile.getVersion() + " is enabled.");
